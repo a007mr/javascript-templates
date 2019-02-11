@@ -8,7 +8,7 @@ var metabolism = 88.362 + (13.397 * weight) + (4.799 * length) - (5.677 * age);
 
 console.log(metabolism);
 
-calorieRate = metabolism * activityRate;
+calorieRate = Math.round(metabolism * activityRate);
 
 var proteins = Math.round(calorieRate * 0.40);
 var fats = Math.round(calorieRate * 0.25);
