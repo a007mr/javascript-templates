@@ -4,6 +4,7 @@ var perimeter;
 var hypotenuse;
 
 
-hypotenuse = Math.sqrt(firstLeg * firstLeg + secondLeg * secondLeg);
+hypotenuse = Math.round(Math.sqrt(firstLeg * firstLeg + secondLeg * secondLeg));
 perimeter = firstLeg + secondLeg + hypotenuse;
 perimeter = Math.round(perimeter);
+
