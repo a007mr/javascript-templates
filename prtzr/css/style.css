@@ -1,0 +1,54 @@
+.card .card-content p {
+  padding-bottom: 8px;
+}
+
+.text_hide {
+  opacity: 0;
+}
+
+.card + h3 {
+  margin-top: 3rem;
+}
+
+.card {
+  margin-top: 2.5rem;
+}
+
+.alert {
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+.alert-danger {
+  background-color: rgb(253, 15, 15);
+  color: white;
+  border-color: rgb(253, 15, 15);
+}
+
+.alert-success {
+  background-color: #28af28;
+  color: white;
+  border-color: #28af28;
+}
+
+.delete-btn {
+  margin-left: 0.4rem;
+}
+
+.border-alert {
+  border-color: rgb(253, 15, 15) !important;
+}
+
+.best-score,
+.best-score-1 {
+  background-color: #28af28;
+}
+
+.best-score-2 {
+  background-color: #91d391;
+}
+
+.best-score-3 {
+  background-color: #bcf3bc;
+}
